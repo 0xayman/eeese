@@ -31,13 +31,18 @@ export default function Home() {
 
       <div className="mt-20 px-16 grid grid-cols-4 space-x-8 space-y-8">
         <div>
-          <div className=" h-52 bg-gray-500 rounded-md transform -rotate-6 hover:scale-110 hover:shadow-sm transition-all duration-150"></div>
+          <div className=" h-52 overflow-hidden bg-gray-500 rounded-md transform -rotate-6 hover:scale-110 hover:shadow-sm transition-all duration-150">
+            <img src="/assets/IMG_0178.JPG" className="h-full w-full" />
+          </div>
         </div>
         <div>
           <div className=" h-52 bg-gray-500 rounded-md transform rotate-6 hover:scale-110 hover:shadow-sm transition-all duration-150"></div>
         </div>
         <div>
-          <div className=" h-52 bg-gray-500 rounded-md transform -rotate-6 hover:scale-110 hover:shadow-sm transition-all duration-150"></div>
+          <div className=" h-52 overflow-hidden bg-gray-500 rounded-md transform -rotate-6 hover:scale-110 hover:shadow-sm transition-all duration-150">
+          <img src="/assets/IMG_9965.JPG" className="h-full w-full" />
+
+          </div>
         </div>
         <div>
           <div className=" h-52 bg-gray-500 rounded-md transform rotate-6 hover:scale-110 hover:shadow-sm transition-all duration-150"></div>
@@ -71,7 +76,9 @@ export default function Home() {
         <h2 className="text-3xl font-bold text-primary mb-8">Our Tracks</h2>
         <div className="grid grid-cols-7">
           <div className="flex flex-col items-center">
-            <div className="h-28 w-28 rounded-full bg-gray-400"></div>
+            <div className="h-28 w-28 rounded-full bg-gray-400">
+              <img src="/assets/tracks/AgriTech.png" className="w-full h-full" />
+            </div>
             <h3 className="font-bold text-gray-800 mt-2">Title</h3>
           </div>
           <div className="flex flex-col items-center">
