@@ -95,7 +95,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="px-32">
+      {/* <div className="px-32">
         <h2 className="text-3xl font-bold text-primary mb-8">Our Tracks</h2>
         <div className="grid grid-cols-7">
           <div className="flex flex-col items-center">
@@ -142,13 +142,13 @@ export default function Home() {
             <h3 className="font-bold text-gray-800 mt-2">Title</h3>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <div className="relative px-32 mt-10 hidden md:block">
-        <h2 className="text-3xl font-bold text-primary mb-8">
+      <div className="relative px-32 mt-10">
+        <h2 className="text-2xl md:text-3xl font-bold text-center md:text-left text-primary mb-8">
           EEESE through the years
         </h2>
-        <div className="flex justify-center">
+        <div className="  flex sm:flex-col md:flex-row flex-wrap justify-center md:items-end space-x-8 space-y-8">
           <div className="flex flex-col items-center">
             <div
               style={{
@@ -182,17 +182,6 @@ export default function Home() {
             ></div>
             <h4 className="text-xl font-bold text-primary mt-4">EEESE 2022</h4>
           </div>
-        </div>
-      </div>
-
-      <div className="px-32 mt-10 block md:hidden">
-        <h2 className="text-3xl font-bold text-primary">History of EEESE</h2>
-        <div className="flex flex-col space-y-8 items-center mt-16">
-          <div className="h-48 w-48 rounded-full bg-gray-400"></div>
-          <div className="h-48 w-48 rounded-full bg-gray-400"></div>
-          <div className="h-48 w-48 rounded-full bg-gray-400"></div>
-          <div className="h-48 w-48 rounded-full bg-gray-400"></div>
-          <div className="h-48 w-48 rounded-full bg-gray-400"></div>
         </div>
       </div>
 
