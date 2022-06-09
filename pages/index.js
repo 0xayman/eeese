@@ -201,10 +201,10 @@ export default function Home() {
           EEESE 2022 - New Stage of Evolution
         </div>
         <div className="px-16 flex justify-center space-x-8">
-          <a target="_blank" href="https://www.facebook.com/eeese/">
+          <a target="_blank" rel="noreferrer" href="https://www.facebook.com/eeese/">
             <BsFacebook size={20} color="#1877f2" />
           </a>
-          <a target="_blank" href="https://twitter.com/eeese_official">
+          <a target="_blank" rel="noreferrer" href="https://twitter.com/eeese_official">
             <BsTwitter size={20} color="#00acee" />
           </a>
           <BsInstagram size={20} color="#EC008C" />
