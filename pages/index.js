@@ -1,10 +1,13 @@
-import {BsFacebook, BsTwitter, BsInstagram} from 'react-icons/bs'
+import { BsFacebook, BsTwitter, BsInstagram } from "react-icons/bs";
 
 export default function Home() {
   return (
     <>
       {/* Header */}
-      <div className="h-100 bg-gray-800 flex flex-col items-center justify-center" id="header">
+      <div
+        className="h-100 bg-gray-800 flex flex-col items-center justify-center"
+        id="header"
+      >
         <h1 className="text-5xl font-bold text-white">EEESE 2022</h1>
         <h3 className="text-3xl font-bold text-white mt-3">
           New Stage of Evolution
@@ -41,34 +44,78 @@ export default function Home() {
         </div>
       </div>
 
-
       <div>
-        
-      <div
-        className="relative flex items-center justify-center h-100 my-20 overflow-hidden"
-      >
-      <div className="relative z-30 px-32 h-full w-full bg-black flex flex-col justify-center bg-opacity-50">
-        <h2 className="font-bold text-2xl text-white">
-          What is New in EEESE 2022?
-        </h2>
-        <p className="text-white text-xl mt-6">
-          EEESE 2022 aims to be part of Sudan development and to reach that goal
-          we came with the idea of our 10 tracks that involve in many different
-          fields, and those tracks are : agri-tech, art and culture, clean
-          energy and power, education, environment, med-tech, product and
-          manufacturing, security, social, transportation. By presenting
-          projects that goes around these tracks and help solve real world
-          problems EEESE aim to be part of Sudan development.
-        </p>
-      </div>
-        <video autoPlay loop muted className="absolute z-10">
-          <source src="assets/video.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-      </div>
+        <div className="relative flex items-center justify-center h-100 my-20 overflow-hidden">
+          <div className="relative z-30 px-32 h-full w-full bg-black flex flex-col justify-center bg-opacity-50">
+            <h2 className="font-bold text-2xl text-white">
+              What is New in EEESE 2022?
+            </h2>
+            <p className="text-white text-xl mt-6">
+              EEESE 2022 aims to be part of Sudan development and to reach that
+              goal we came with the idea of our 10 tracks that involve in many
+              different fields, and those tracks are : agri-tech, art and
+              culture, clean energy and power, education, environment, med-tech,
+              product and manufacturing, security, social, transportation. By
+              presenting projects that goes around these tracks and help solve
+              real world problems EEESE aim to be part of Sudan development.
+            </p>
+          </div>
+          <video autoPlay loop muted className="absolute z-10">
+            <source src="assets/video.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
       </div>
 
       <div className="px-32">
+        <h2 className="text-3xl font-bold text-primary mb-8">Our Tracks</h2>
+        <div className="grid grid-cols-7">
+          <div className="flex flex-col items-center">
+            <div className="h-28 w-28 rounded-full bg-gray-400"></div>
+            <h3 className="font-bold text-gray-800 mt-2">Title</h3>
+          </div>
+          <div className="flex flex-col items-center">
+            <div className="h-28 w-28 rounded-full bg-gray-400"></div>
+            <h3 className="font-bold text-gray-800 mt-2">Title</h3>
+          </div>
+          <div className="flex flex-col items-center">
+            <div className="h-28 w-28 rounded-full bg-gray-400"></div>
+            <h3 className="font-bold text-gray-800 mt-2">Title</h3>
+          </div>
+          <div className="flex flex-col items-center">
+            <div className="h-28 w-28 rounded-full bg-gray-400"></div>
+            <h3 className="font-bold text-gray-800 mt-2">Title</h3>
+          </div>
+          <div className="flex flex-col items-center">
+            <div className="h-28 w-28 rounded-full bg-gray-400"></div>
+            <h3 className="font-bold text-gray-800 mt-2">Title</h3>
+          </div>
+          <div className="flex flex-col items-center">
+            <div className="h-28 w-28 rounded-full bg-gray-400"></div>
+            <h3 className="font-bold text-gray-800 mt-2">Title</h3>
+          </div>
+          <div className="flex flex-col items-center">
+            <div className="h-28 w-28 rounded-full bg-gray-400"></div>
+            <h3 className="font-bold text-gray-800 mt-2">Title</h3>
+          </div>
+        </div>
+        <div className="grid grid-cols-7 mt-7">
+          <div className="flex flex-col items-center col-start-3">
+            <div className="h-28 w-28 rounded-full bg-gray-400"></div>
+            <h3 className="font-bold text-gray-800 mt-2">Title</h3>
+          </div>
+          <div className="flex flex-col items-center">
+            <div className="h-28 w-28 rounded-full bg-gray-400"></div>
+            <h3 className="font-bold text-gray-800 mt-2">Title</h3>
+          </div>
+          <div className="flex flex-col items-center">
+            <div className="h-28 w-28 rounded-full bg-gray-400"></div>
+            <h3 className="font-bold text-gray-800 mt-2">Title</h3>
+          </div>
+        </div>
+      </div>
+
+      <div className="px-32 mt-10">
         <h2 className="text-3xl font-bold text-primary">History of EEESE</h2>
         <div className="flex flex-col space-y-8 items-center mt-16">
           <div className="">
@@ -86,13 +133,13 @@ export default function Home() {
       </div>
 
       <div className="mt-16 py-4 bg-gray-800">
-        <div className='text-center mb-4 text-white'>
+        <div className="text-center mb-4 text-white">
           EEESE 2022 - New Stage of Evolution
         </div>
         <div className="px-16 flex justify-center space-x-8">
-          <BsFacebook size={20} color='#1877f2' />
-          <BsTwitter size={20} color='#00acee' />
-          <BsInstagram size={20} color='#EC008C' />
+          <BsFacebook size={20} color="#1877f2" />
+          <BsTwitter size={20} color="#00acee" />
+          <BsInstagram size={20} color="#EC008C" />
         </div>
       </div>
     </>
