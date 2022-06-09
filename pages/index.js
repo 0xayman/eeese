@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { BsFacebook, BsTwitter, BsInstagram } from "react-icons/bs";
 
 export default function Home() {
