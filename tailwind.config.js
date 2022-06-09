@@ -39,6 +39,9 @@ module.exports = {
       fuchsia: colors.fuchsia,
       pink: colors.pink,
       rose: colors.rose,
+      primary: '#EC008C',
+      secondary: '#543993',
+      accent: '#00AEEF',
     }),
     columns: {
       auto: 'auto',
@@ -104,6 +107,7 @@ module.exports = {
       72: '18rem',
       80: '20rem',
       96: '24rem',
+      100: '30rem',
     },
     animation: {
       none: 'none',
