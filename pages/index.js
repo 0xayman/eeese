@@ -79,7 +79,7 @@ export default function Home() {
               What is New in EEESE 2022?
             </h2>
             <p className="text-white text-base md:text-xl mt-6">
-              EEESE 2022 aims to be part of Sudan's development and to reach
+              EEESE 2022 aims to be part of Sudan development and to reach
               that goal, we came up with the idea of our 10 tracks that involve
               many different fields; Those tracks are: agri-tech, art and
               culture, clean energy and power, education, environment, med-tech,
