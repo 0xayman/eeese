@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { BsFacebook, BsTwitter, BsInstagram } from "react-icons/bs";
 
 export default function Home() {
@@ -31,20 +32,44 @@ export default function Home() {
 
       <div className="mt-20 px-16 grid grid-cols-1 md:grid-cols-4 space-x-8 space-y-8">
         <div>
-          <div style={{ backgroundImage: "url('/assets/IMG_0178.JPG')", backgroundSize: "cover", backgroundPosition: "center",}} className=" h-52 overflow-hidden bg-gray-500 rounded-md transform -rotate-1 md:-rotate-6 hover:scale-110 hover:shadow-sm transition-all duration-150">
-          </div>
+          <div
+            style={{
+              backgroundImage: "url('/assets/IMG_0178.JPG')",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+            }}
+            className=" h-52 overflow-hidden bg-gray-500 rounded-md transform -rotate-1 md:-rotate-6 hover:scale-110 hover:shadow-sm transition-all duration-150"
+          ></div>
         </div>
         <div>
-          <div style={{ backgroundImage: "url('/assets/PCRX3095.jpeg')", backgroundSize: "cover", backgroundPosition: "center",}} className=" h-52 bg-gray-500 rounded-md overflow-hidden transform rotate-3 md:rotate-6 hover:scale-110 hover:shadow-sm transition-all duration-150">
-          </div>
+          <div
+            style={{
+              backgroundImage: "url('/assets/PCRX3095.jpeg')",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+            }}
+            className=" h-52 bg-gray-500 rounded-md overflow-hidden transform rotate-3 md:rotate-6 hover:scale-110 hover:shadow-sm transition-all duration-150"
+          ></div>
         </div>
         <div>
-          <div style={{ backgroundImage: "url('/assets/IMG_9965.JPG')", backgroundSize: "cover", backgroundPosition: "center",}}  className=" h-52 overflow-hidden bg-gray-500 rounded-md transform -rotate-1 md:-rotate-6 hover:scale-110 hover:shadow-sm transition-all duration-150">
-          </div>
+          <div
+            style={{
+              backgroundImage: "url('/assets/IMG_9965.JPG')",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+            }}
+            className=" h-52 overflow-hidden bg-gray-500 rounded-md transform -rotate-1 md:-rotate-6 hover:scale-110 hover:shadow-sm transition-all duration-150"
+          ></div>
         </div>
         <div>
-          <div style={{ backgroundImage: "url('/assets/GZPR7613.jpeg')", backgroundSize: "cover", backgroundPosition: "center",}} className=" h-52 bg-gray-500 overflow-hidden rounded-md transform rotate-3 md:rotate-6 hover:scale-110 hover:shadow-sm transition-all duration-150">
-          </div>
+          <div
+            style={{
+              backgroundImage: "url('/assets/GZPR7613.jpeg')",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+            }}
+            className=" h-52 bg-gray-500 overflow-hidden rounded-md transform rotate-3 md:rotate-6 hover:scale-110 hover:shadow-sm transition-all duration-150"
+          ></div>
         </div>
       </div>
 
@@ -55,13 +80,13 @@ export default function Home() {
               What is New in EEESE 2022?
             </h2>
             <p className="text-white text-base md:text-xl mt-6">
-              EEESE 2022 aims to be part of Sudan development and to reach that
-              goal we came with the idea of our 10 tracks that involve in many
-              different fields, and those tracks are : agri-tech, art and
+              EEESE 2022 aims to be part of Sudan's development and to reach
+              that goal, we came up with the idea of our 10 tracks that involve
+              many different fields; Those tracks are: agri-tech, art and
               culture, clean energy and power, education, environment, med-tech,
-              product and manufacturing, security, social, transportation. By
-              presenting projects that goes around these tracks and help solve
-              real world problems EEESE aim to be part of Sudan development.
+              product and manufacturing, security, social, transportation.EEESE
+              aims to be part of Sudan development by presenting projects that
+              revolve around these tracks and help solve real world problems.
             </p>
           </div>
           <video autoPlay loop muted className="absolute z-10">
@@ -70,13 +95,16 @@ export default function Home() {
           </video>
         </div>
       </div>
-{/* 
+
       <div className="px-32">
         <h2 className="text-3xl font-bold text-primary mb-8">Our Tracks</h2>
         <div className="grid grid-cols-7">
           <div className="flex flex-col items-center">
             <div className="h-28 w-28 rounded-full bg-gray-400">
-              <img src="/assets/tracks_white/._AgriTech.png" className="w-full h-full" />
+              <img
+                src="/assets/tracks_white/._AgriTech.png"
+                className="w-full h-full"
+              />
             </div>
             <h3 className="font-bold text-gray-800 mt-2">Title</h3>
           </div>
@@ -119,21 +147,45 @@ export default function Home() {
             <h3 className="font-bold text-gray-800 mt-2">Title</h3>
           </div>
         </div>
-      </div> */}
+      </div>
 
-      <div className="px-32 mt-10 hidden md:block">
-        <h2 className="text-3xl font-bold text-primary">History of EEESE</h2>
-        <div className="flex flex-col space-y-8 items-center mt-16">
-          <div className="">
-            <div className="h-48 w-48 rounded-full bg-gray-400"></div>
+      <div className="relative px-32 mt-10 hidden md:block">
+        <h2 className="text-3xl font-bold text-primary mb-8">
+          EEESE through the years
+        </h2>
+        <div className="flex justify-center">
+          <div className="flex flex-col items-center">
+            <div
+              style={{
+                backgroundImage: "url('/assets/eeese_2016.jpg')",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+              }}
+              className="rounded-full h-48 w-48"
+            ></div>
+            <h4 className="text-xl font-bold text-primary mt-4">EEESE 2016</h4>
           </div>
-          <div className="flex space-x-8">
-            <div className="h-48 w-48 rounded-full bg-gray-400"></div>
-            <div className="h-48 w-48 rounded-full bg-gray-400"></div>
-            <div className="h-48 w-48 rounded-full bg-gray-400"></div>
+          <div className="flex flex-col items-center">
+            <div
+              style={{
+                backgroundImage: "url('/assets/eeese_2017.jpg')",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+              }}
+              className="rounded-full h-48 w-48"
+            ></div>
+            <h4 className="text-xl font-bold text-primary mt-4">EEESE 2017</h4>
           </div>
-          <div className="">
-            <div className="h-48 w-48 rounded-full bg-gray-400"></div>
+          <div className="flex flex-col items-center">
+            <div
+              style={{
+                backgroundImage: "url('/assets/eeese_logo.png')",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+              }}
+              className="rounded-full h-48 w-48"
+            ></div>
+            <h4 className="text-xl font-bold text-primary mt-4">EEESE 2022</h4>
           </div>
         </div>
       </div>
@@ -141,11 +193,11 @@ export default function Home() {
       <div className="px-32 mt-10 block md:hidden">
         <h2 className="text-3xl font-bold text-primary">History of EEESE</h2>
         <div className="flex flex-col space-y-8 items-center mt-16">
-            <div className="h-48 w-48 rounded-full bg-gray-400"></div>
-            <div className="h-48 w-48 rounded-full bg-gray-400"></div>
-            <div className="h-48 w-48 rounded-full bg-gray-400"></div>
-            <div className="h-48 w-48 rounded-full bg-gray-400"></div>
-            <div className="h-48 w-48 rounded-full bg-gray-400"></div>
+          <div className="h-48 w-48 rounded-full bg-gray-400"></div>
+          <div className="h-48 w-48 rounded-full bg-gray-400"></div>
+          <div className="h-48 w-48 rounded-full bg-gray-400"></div>
+          <div className="h-48 w-48 rounded-full bg-gray-400"></div>
+          <div className="h-48 w-48 rounded-full bg-gray-400"></div>
         </div>
       </div>
 
@@ -154,8 +206,12 @@ export default function Home() {
           EEESE 2022 - New Stage of Evolution
         </div>
         <div className="px-16 flex justify-center space-x-8">
-          <BsFacebook size={20} color="#1877f2" />
-          <BsTwitter size={20} color="#00acee" />
+          <a target="_blank" href="https://www.facebook.com/eeese/">
+            <BsFacebook size={20} color="#1877f2" />
+          </a>
+          <a target="_blank" href="https://twitter.com/eeese_official">
+            <BsTwitter size={20} color="#00acee" />
+          </a>
           <BsInstagram size={20} color="#EC008C" />
         </div>
       </div>
