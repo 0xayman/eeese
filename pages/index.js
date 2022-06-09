@@ -100,10 +100,6 @@ export default function Home() {
         <div className="grid grid-cols-7">
           <div className="flex flex-col items-center">
             <div className="h-28 w-28 rounded-full bg-gray-400">
-              <img
-                src="/assets/tracks_white/._AgriTech.png"
-                className="w-full h-full"
-              />
             </div>
             <h3 className="font-bold text-gray-800 mt-2">Title</h3>
           </div>
